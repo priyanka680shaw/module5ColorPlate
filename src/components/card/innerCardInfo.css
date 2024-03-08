@@ -1,0 +1,44 @@
+.cardInfoContainer{
+    width: 400px;
+    /* border: 2px solid red; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    background-color: transparent;
+}
+
+.imageInfo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardInfoInnerContainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgBox{
+    
+  
+}
+
+.imgBox>figure>img{
+    width: 100px;
+    height: 150px;
+    
+}
+.playBtn{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.cardimgabout>p{
+   
+}

@@ -1,0 +1,61 @@
+
+.imageCardOuterContainer{
+    width: 70%;
+    height: 500px;
+    border: 2px solid red;
+    margin: 200px auto;
+    background-color: black;
+}
+
+.imageCardinnerContainer{
+    width: 90%;
+    height: 400px;
+    
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroBgImage {
+    width: 100%;
+   
+   border: 2px solid black;
+  
+   /* background-image: url('./assest/bg1.jpg'); */
+   /* background-position: center; */
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.overlay{
+    height: 400px;
+   background-image: linear-gradient(to right , black , rgb(12, 12, 12));
+    opacity: 0.8;
+   
+}
+
+.socialIcons{
+    width: 100%;
+    background-color: rgb(120, 173, 173);
+   
+}
+.socialIconsContainer{
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+}
+.socialIcons>ul{
+    display: flex;
+    align-items: center;
+}
+
+.socialIcons>ul>li{
+    list-style: none;
+   
+}
+
+.socialIcons>ul>li>a{
+    color: rgb(7, 7, 7);
+    opacity: 0.5;
+   
+}
